@@ -1,0 +1,68 @@
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 8%;
+  
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.logo i {
+    color: var(--main-color);
+    font-size: 32px;
+    margin-right: 5px;
+}
+
+.nav_bar {
+    display: flex;
+
+}
+
+.nav_bar a {
+    color: var(--other-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    margin: 0 30px;
+    transition: a .55s ease;
+}
+
+.nav_bar a:hover {
+    color: var(--main-color);
+}
+
+.header_icons {
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.header_icons i {
+    margin-right: 25px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.header_icons i:hover {
+    transform: translateY(-5px);   /*Efeito maneiro de subir o objeto*/
+    color: var(--main-color);
+}
+
+
+#menu {
+    font-size: 35px;
+    z-index: 1001;
+    cursor: pointer;
+}

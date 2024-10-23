@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fone de ouvido</title>
+
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <i class='bx bx-headphone'></i>SoundBox
+        </a>
+        <ul class="nav_bar">
+            <li><a href="#">Visão Geral</a></li>
+            <li><a href="#">Tech Specs</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul> <!--FIM DA NAV BAR-->
+
+        <div class="header_icons">
+            <i class='bx bx-cart' ></i>
+            <div id="menu"><i class='bx bx-menu' ></i></div>   
+        </div>
+    </header> <!--FIM DO HEADER-->
+
+    <section class="home">
+        <div class="home_img">
+            <img src="imgs/product1.png" class="img_one" alt="Imagem Principal">
+        </div>
+
+        <div class="home_text">
+            <h1>Wireless <br> Headphones</h1>
+            <h5>The smarter way to listen</h5>
+            <h3>$199.00</h3>
+            <a href="#" class="btn">Shop Now</a>
+        </div><!--FIM DO HOME-TEXT-->
+    </section><!--FIM DO HOME-->
+
+    <main>
+        <div class="row" onclick="slider('product1.png')">
+            <li>
+                <img src="imgs/main1.png" alt="Imagem 1">
+            </li>
+        </div>
+    
+        <div class="row2" onclick="slider('product2.png')">
+            <li>
+                <img src="imgs/main2.png" alt="Imagem 2">
+            </li>
+        </div>
+    
+        <div class="row3" onclick="slider('product3.png')">
+            <li>
+                <img src="imgs/main3.png" alt="Imagem 3">
+            </li>
+        </div>
+    </main>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
