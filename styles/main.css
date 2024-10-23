@@ -32,17 +32,13 @@ main li img {
     transform: translateY(-8px);
 }
 
-.row2 {
-    background-color: #ff758d;
-}
+
 
 .row2:hover {
     transform: translateY(-8px);
 }
 
-.row3 {
-    background-color: #ffd06d ;
-}
+
 
 .row3:hover {
     transform: translateY(-8px);
